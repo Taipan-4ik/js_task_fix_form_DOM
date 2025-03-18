@@ -1,0 +1,2 @@
+"use strict";function correctionOfForm(){document.querySelectorAll("input").forEach(function(e){var t=e.getAttribute("name");e.insertAdjacentHTML("beforebegin",'<label for="'.concat(e.id,'" class="field-label"></label>')),e.previousElementSibling.textContent=t,e.name=e.name.charAt(0).toUpperCase()+e.name.slice(1),e.setAttribute("placeholder","".concat(e.name))})}correctionOfForm();
+//# sourceMappingURL=js_task_fix_form_DOM.14d3f8d7.js.map
